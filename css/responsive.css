@@ -1,0 +1,106 @@
+/* for the main page */
+@media screen and (min-width: 0px ) {
+  body, nav, #maincontent, #footer {
+    width: 100%;
+    align-content: center;
+  }
+
+  #maincontent {
+    display: flex;
+    align-content: space-around;
+  }
+
+  .filter-options {
+    text-align: center;
+    height: 120px;
+    margin-top: 400px;
+  }
+
+  .filter-options select {
+    flex-wrap: wrap;
+  }
+
+  #restaurants-list {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  #restaurants-list {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #restaurants-list li {
+    max-width: 650px;
+  }
+}
+
+/* ,*/
+@media screen and (min-width: 770px) {
+  filter-options h2 {
+    font-size: 2em;
+  }
+
+  #restaurants-list {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+   body {
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ #restaurants-list {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+/* for restaurant.html (restaurant details page)*/
+@media screen and (max-width: 700px) {
+    .inside #map-container {
+      width: 100%;
+      position: absolute;
+      max-height: 300px;
+    }
+
+    #restaurant-container, #reviews-container {
+      width: 100%;
+      position: relative;
+      margin-top: 380px;
+    }
+
+    .inside #footer {
+      bottom: 0;
+      position: absolute;
+      width: 100%;
+    }
+  }
+
+@media screen and (min-width: 701px) {
+  .inside {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .inside #maincontent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #restaurant-container {
+    order: 1;
+  }
+
+  .inside #map-container {
+    order: 2;
+  }
+
+  #reviews-container {
+    order: 3;
+  }
+}
