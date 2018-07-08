@@ -19,11 +19,11 @@
 
   <main id="maincontent">
     <section id="map-container">
-      <div aria-label="Map of the neighborhood" id="map"></div>
+      <div role="application" aria-label="Map of the neighborhood" id="map"></div>
     </section>
 
     <section>
-      <div class="filter-options">
+      <div role="group" aria-label="filter options" class="filter-options">
         <h2>Filter Results</h2>
         <select aria-label="Select the neighborhood" id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
