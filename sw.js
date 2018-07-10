@@ -1,7 +1,7 @@
 //checks if the browser supports Service Worker
 if(navigator.serviceWorker){
   // if it does, registeres the Service Worker
-  navigator.serviceWorker.register('/sw.js').then(function(reg){
+  navigator.serviceWorker.register('index.js').then(function(reg){
     //if registration resolves
     console.log('Service Worker registered');
   }).catch (function (err){
