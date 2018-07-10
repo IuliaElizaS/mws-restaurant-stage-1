@@ -21,9 +21,11 @@ self.addEventListener('fetch', function(evt){
               return response;
             }else{
               //if it doesn't find the requested data in the cache, fetches it from the network
-              return fetch(evt.request);
-              //and adds a clone to the cache
-              cache.add(evt.request);
+              return fetch(evt.request).then(function (response){
+                //and adds a clone of the response to the cache
+                cache.put(evt.request, response.clone());
+                return fetch.response;
+              });
             }
         });
       })
