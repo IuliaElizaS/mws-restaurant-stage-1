@@ -25,3 +25,4 @@ The provided code is for a restaurant reviews website. The code has a lot of iss
 
 the starter code: Udacity
 the map:  [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information.
+the skip link for better accessibility: https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/skip-to-main-content/
