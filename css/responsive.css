@@ -49,25 +49,30 @@
 }
 
 @media screen and (max-width: 700px) {
+    #breadcrumb {
+      width: 96%;
+    }
+
     .inside #map-container {
       width: 100%;
       position: absolute;
       max-height: 300px;
+      z-index: 1;
     }
 
     #restaurant-container, #reviews-container {
-      width: 100%;
+      width: 92%;
       position: relative;
     }
 
     #restaurant-container {
-      margin-top: 350px;
+      margin-top: 380px;
     }
 
     .inside #footer {
       bottom: 0;
       position: absolute;
-      width: 100%;
+      width: 96%;
     }
   }
 
