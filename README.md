@@ -5,7 +5,7 @@
 
 This is a project for Udacity Front-End Web Developer and Mobile Web Specialist Nanodegree Schoolarships and has only learning purpose.
 
-For the **Restaurant Reviews** project **Stage One**, students will take a static webpage design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. Students also have to add a service worker to begin the process of creating a seamless offline experience for the users.
+For the **Restaurant Reviews** project **Stage One**, students take a static webpage design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. Students also have to add a service worker to begin the process of creating a seamless offline experience for the users.
 
 ### Specification
 
@@ -24,5 +24,7 @@ The provided code is for a restaurant reviews website. The code has a lot of iss
 ## Sources:
 
 the starter code: Udacity
-the map:  [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information.
+
+the map:  [Mapbox](https://www.mapbox.com/).
+
 the skip link for better accessibility: https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/skip-to-main-content/
